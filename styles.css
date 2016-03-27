@@ -46,6 +46,10 @@ header {
   header h1 {
     line-height: 1em;
   }
+svg.logo {
+  width: 140px;
+  height: 140px;
+}
 
 main {
   padding-top: 50px;
