@@ -46,7 +46,7 @@ header {
   header h1 {
     line-height: 1em;
   }
-svg.logo {
+.logo {
   width: 140px;
   height: 140px;
 }
@@ -81,3 +81,25 @@ footer {
   padding-bottom: 30px;
   color: #ba8058;
 }
+
+/*Media Query page width of less than 420 pixels*/
+@media screen and (max-width: 420px) {
+    .svg-text {
+      display: none;
+    }
+}
+
+/*Media Query page width of greater than 421 pixels*/
+@media screen and (min-width: 421px) {
+    .logo-text {
+      display: none;
+    }
+}
+
+
+
+
+
+
+
+
