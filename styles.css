@@ -47,6 +47,9 @@ header {
     line-height: 1em;
   }
 .icon{fill:#39ADD1;}
+.icon {
+  transition: .3s ease-out;
+}
 .icon:hover{fill:#111;}
 
 .logo {
@@ -80,11 +83,10 @@ main {
       main li:last-child {
         margin-right: 0;
       }
-/*img.coat {
-  width: 170px;
-}*/
+
 svg.coat {
   width: 170px;
+  margin-bottom: 15px;
 }
     .red-st0{fill:#BA8058;}
     .red-st1{fill:#FBFEFF;}
