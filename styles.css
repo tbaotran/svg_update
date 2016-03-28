@@ -46,11 +46,16 @@ header {
   header h1 {
     line-height: 1em;
   }
+.icon{fill:#39ADD1;}
+.icon:hover{fill:#111;}
 
 .logo {
   width: 140px;
   height: 140px;
 }
+  .st0{fill:#BA8058;}
+  .st1{fill:#EAAA7F;}
+  .st2{fill:#F4C6A6;}
 
 main {
   padding-top: 50px;
