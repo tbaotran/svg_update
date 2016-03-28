@@ -46,11 +46,19 @@ header {
   header h1 {
     line-height: 1em;
   }
-.icon{fill:#39ADD1;}
-.icon {
-  transition: .3s ease-out;
+.icon{
+  fill:#39ADD1;
+  z-index: 100;
 }
-.icon:hover{fill:#111;}
+
+.icon:hover{
+  fill:#111;
+  transform: scale(.9);
+}
+
+.icon {
+  transition: transform .2s ease-out;
+}
 
 .logo {
   width: 140px;
