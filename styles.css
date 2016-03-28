@@ -53,9 +53,9 @@ header {
   width: 140px;
   height: 140px;
 }
-  .st0{fill:#BA8058;}
-  .st1{fill:#EAAA7F;}
-  .st2{fill:#F4C6A6;}
+  .logo-st0{fill:#BA8058;}
+  .logo-st1{fill:#EAAA7F;}
+  .logo-st2{fill:#F4C6A6;}
 
 main {
   padding-top: 50px;
@@ -80,9 +80,32 @@ main {
       main li:last-child {
         margin-right: 0;
       }
-img.coat{
+/*img.coat {
+  width: 170px;
+}*/
+svg.coat {
   width: 170px;
 }
+    .red-st0{fill:#BA8058;}
+    .red-st1{fill:#FBFEFF;}
+    .red-st2{fill:#2D3339;}
+    .red-st3{fill:#EAAA7F;}
+              
+    .fawn-st0{fill:#EAAA7F;}
+    .fawn-st1{fill:#FBFEFF;}
+    .fawn-st2{fill:#2D3339;}
+    .fawn-st3{fill:#F4C6A6;}
+
+    .sable-st0{fill:#844B24;}
+    .sable-st1{fill:#FBFEFF;}
+    .sable-st2{fill:#2D3339;}
+    .sable-st3{fill:#BA8058;}   
+
+    .blacktan-st0{fill:#BA8058;}
+    .blacktan-st1{fill:#52595F;}
+    .blacktan-st2{fill:#FBFEFF;}
+    .blacktan-st3{fill:#2D3339;} 
+
 footer {
   width: 100%;
   margin-top: 100px;
@@ -101,8 +124,8 @@ footer {
     }
 }
 
-/*Media Query page width of greater than 421 pixels*/
-@media screen and (min-width: 421px) {
+/*Media Query page width of greater than 420 pixels*/
+@media screen and (min-width: 420px) {
     .logo-text {
       color: #ba8058;
       display: none;
