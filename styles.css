@@ -74,7 +74,9 @@ main {
       main li:last-child {
         margin-right: 0;
       }
-
+img.coat{
+  width: 170px;
+}
 footer {
   width: 100%;
   margin-top: 100px;
@@ -87,11 +89,16 @@ footer {
     .svg-text {
       display: none;
     }
+    .logo-text {
+      color: #ba8058;
+      margin-bottom: 0;
+    }
 }
 
 /*Media Query page width of greater than 421 pixels*/
 @media screen and (min-width: 421px) {
     .logo-text {
+      color: #ba8058;
       display: none;
     }
 }
