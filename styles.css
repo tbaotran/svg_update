@@ -30,7 +30,6 @@ a {
   }
   a:hover {
     color: #111;
-    transition:  .3s ease-out;
   }
 
 header {
@@ -47,17 +46,19 @@ header {
   header h1 {
     line-height: 1em;
   }
+.nav-items:hover #nav-home, 
+.nav-items:hover #nav-loc, 
+.nav-items:hover #nav-contact {
+  transition: transform .2s ease-out;
+  transform-origin: 50% 50%;
+  transform: scale(1.2); }
+
 .icon{
   fill:#39ADD1;
 }
 
-.icon:hover{
+.icon:hover {
   fill:#111;
-  transform: scale(.9);
-}
-
-.icon {
-  transition: transform .2s ease-out;
 }
 
 .logo {
@@ -67,6 +68,16 @@ header {
   .logo-st0{fill:#BA8058;}
   .logo-st1{fill:#EAAA7F;}
   .logo-st2{fill:#F4C6A6;}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.2); }
+  100% {
+    transform: scale(1); } }
+.logo {
+    animation: pulse 1s ease-out; }
 
 main {
   padding-top: 50px;
