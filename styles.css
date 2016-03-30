@@ -120,6 +120,9 @@ footer {
       color: #ba8058;
       margin-bottom: 0;
     }
+    main li {
+      display: block;
+    }
 }
 
 /*Media Query page width of greater than 420 pixels*/
